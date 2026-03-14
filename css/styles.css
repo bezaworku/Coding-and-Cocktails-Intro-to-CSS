@@ -1,6 +1,9 @@
-h1{color: #50C878}
-h2{color: #50C878}
-body {background-color: #f2dcf2;}
+h1,
+h2,
+h3{color: #50C878}
+body {background-color: #f2dcf2; 
+    main li: hover {background-color: #deb6de;}}
+nav, footer{background-color: #8dbfa1;}
 .drinks {
   background-color: #cc8ecc;
-}
+li :hover {background-color: #deb6de;}}
