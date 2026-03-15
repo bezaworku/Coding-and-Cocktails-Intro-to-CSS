@@ -1,9 +1,55 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+li,
+aside,
+footer,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
 h1,
 h2,
 h3{color: #50C878}
 body {background-color: #f2dcf2; 
-    main li: hover {background-color: #deb6de;}}
+    }
 nav, footer{background-color: #8dbfa1;}
 .drinks {
-  background-color: #cc8ecc;
-li :hover {background-color: #deb6de;}}
+  background-color: #cc8ecc;}
+li :hover {background-color: #deb6de;}
+ul {
+  list-style-type: none;
+}
+.drinks li padding-top: 40px;
+.drinks li {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.navbar ul {display:grid;
+    grid-template-columns: repeat(4, 100px);
+    justify-content: right;
+    justify-items: center;
+    font-size: 1.5em;
+}
+footer {
+  padding-top: 20px;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+.hero {
+  text-align: center;
+}
